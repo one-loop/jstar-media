@@ -713,7 +713,7 @@
      margin-bottom: 8rem;
      grid-column-gap: 5rem;
      -ms-grid-columns: 3fr 0.9fr 0.9fr;
-     grid-template-columns: 3fr 0.9fr 0.9r;
+     grid-template-columns: 3fr 0.9fr 0.9fr;
      -ms-grid-rows: auto;
      grid-template-rows: auto;
    }
