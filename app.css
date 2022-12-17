@@ -10280,8 +10280,9 @@ figcaption {
       filter: contrast(50%);
   }
   .footer {
-      background-color: #1b222b;
+      /* background-color: #1b222b; */
   }
+
   .wrapper.footer-wrapper {
       padding-bottom: 35px;
       -webkit-box-orient: vertical;
@@ -13605,4 +13606,16 @@ figcaption {
 
 iframe {
   min-height: 90vh;
+}
+
+br {
+  display: block;
+  content: ""; /* clears default height */
+  margin-top: 10px;
+}
+
+@media (min-width: 900px) {
+  .calendly-container {
+    width: 50vw;
+  }
 }
